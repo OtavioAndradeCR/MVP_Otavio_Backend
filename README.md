@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este é o backend do Sistema de Agendamento e Gestão para Pequenos Negócios, desenvolvido como MVP (Minimum Viable Product) para projeto de final de período da pós-graduação. O sistema oferece uma API RESTful completa para gerenciamento de usuários e agendamentos, implementada com Flask, Pydantic e flask-openapi3.
+Este é o backend do Sistema de Agendamento e Gestão para Pequenos Negócios. O sistema oferece uma API RESTful completa para gerenciamento de usuários e agendamentos, implementada com Flask, Pydantic e flask-openapi3.
 
 ## Tecnologias Utilizadas
 
@@ -18,8 +18,7 @@ Este é o backend do Sistema de Agendamento e Gestão para Pequenos Negócios, d
 ## Estrutura do Projeto
 
 ```
-backend/
-├── app/
+
 │   ├── __init__.py
 │   ├── main.py              # Arquivo principal da aplicação
 │   ├── database.py          # Configuração do banco de dados
@@ -61,7 +60,6 @@ backend/
 
 3. **Execute a aplicação:**
    ```bash
-   cd app
    python main.py
    ```
 
@@ -208,7 +206,6 @@ Deletar agendamento
 Para iniciar o servidor de desenvolvimento:
 
 ```bash
-cd app
 python main.py
 ```
 
@@ -218,27 +215,3 @@ O servidor será iniciado em modo debug na porta 5000.
 
 A documentação completa da API está disponível através do Swagger UI em:
 http://localhost:5000/openapi/swagger
-
-Esta documentação é gerada automaticamente pelo flask-openapi3 com base nos schemas Pydantic definidos no código.
-
-## Recursos Implementados
-
-### Funcionalidades Base
-- ✅ API implementada em Python com Flask
-- ✅ Mínimo de 4 rotas (cadastrar_usuario, buscar_usuario, buscar_usuarios, deletar_usuario)
-- ✅ Pelo menos uma rota implementa o método POST
-- ✅ Uso do banco de dados SQLite com pelo menos uma tabela
-- ✅ Documentação da API com Swagger (OpenAPI)
-
-### Criatividade e Inovação
-- ✅ Implementação além do exemplo base
-- ✅ Novas rotas e funcionalidades extras
-- ✅ Tratamento de dados avançado
-- ✅ Uso de relacionamentos entre tabelas
-- ✅ Múltiplas tabelas no banco de dados
-
-### Organização dos Códigos
-- ✅ Dois projetos separados (backend e frontend)
-- ✅ Repositório git próprio
-- ✅ Arquivo README.md com informações completas
-- ✅ Qualidade da organização do código
